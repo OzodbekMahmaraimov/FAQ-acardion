@@ -57,6 +57,15 @@ body {
     color: #6c757d;
 }
 
+.accordion-title {
+    transition: all 0.2s linear;
+    font-weight: 700;
+}
+
+.accordion-title:hover {
+    color: #ad28eb;
+}
+
 @media (max-width: 992px) {
     .box {
         width: 90%;
